@@ -33,6 +33,13 @@ main { max-width:1000px; margin:auto; background:white; padding:20px; margin-top
 <button onclick="addToCart('Pistol',1100000)">Læg i kurv</button>
 </div>
 
+<div class="product">
+    <img src="https://i.gyazo.com/ab625f21a8129f2578c8d4431355a0a4.png">
+    <h3>SNS</h3>
+    <p class="price">Pris: 800.000 kr</p>
+    <button class="add-to-cart">Læg i kurv</button>
+  </div>
+  
 <h3>Kurv</h3>
 <div id="cart"></div>
 <p id="total"></p>
