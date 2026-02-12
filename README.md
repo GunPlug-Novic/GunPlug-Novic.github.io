@@ -163,5 +163,4 @@ window.deleteOrder = async function(id){
 
 </script>
 
-</body>
-</html>
+
