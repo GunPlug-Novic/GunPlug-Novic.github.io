@@ -21,17 +21,20 @@ main { max-width:1000px; margin:auto; background:white; padding:20px; margin-top
 
 <h2>Produkter</h2>
 
-<div class="product">
-<h3>Deagle</h3>
-<p>Pris: 1.800.000 kr</p>
-<button onclick="addToCart('Deagle',1800000)">Læg i kurv</button>
-</div>
+<div class="products">
+  <div class="product">
+    <img src="https://i.gyazo.com/148d227b058218eac9f8a097c5453ec9.png">
+    <h3>Deagle</h3>
+    <p class="price">Pris: 1.800.000 kr</p>
+    <button class="add-to-cart">Læg i kurv</button>
+  </div>
 
 <div class="product">
-<h3>Pistol</h3>
-<p>Pris: 1.100.000 kr</p>
-<button onclick="addToCart('Pistol',1100000)">Læg i kurv</button>
-</div>
+    <img src="https://i.gyazo.com/fe27523c5e0cbcd06ab5d0c3c38d637a.png">
+    <h3>Pistol</h3>
+    <p class="price">Pris: 1.100.000 kr</p>
+    <button class="add-to-cart">Læg i kurv</button>
+  </div>
 
 <div class="product">
     <img src="https://i.gyazo.com/ab625f21a8129f2578c8d4431355a0a4.png">
